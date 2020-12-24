@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('bg.jpg');
+}
+
+#div1 {
+    background-color: black;
+    color: cornsilk;
+    height: 100px;
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+    padding: 30px;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#text {
+    display: inline-block;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 25%;
+    background-color: darksalmon;
+    border: 3px solid black;
+}
+
+#btn {
+    display: inline block;
+    position: relative;
+    width: 25%;
+    left: 25%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: darkviolet;
+    border: 2px solid black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+#btn:hover {
+    color: floralwhite;
+}
+
+#clr {
+    display: inline block;
+    position: relative;
+    width: 25%;
+    left: 25%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: darkviolet;
+    border: 2px solid black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+#clr:hover {
+    color: floralwhite;
+}
+
+#div3 {
+    background-color: gainsboro;
+    margin-top: 10px;
+    position: relative;
+    width: 50%;
+    left: 25%;
+}
+
+#result {
+    font-size: 20px;
+    padding: 5px;
+    text-align: left;
+    font-family: cursive;
+}
